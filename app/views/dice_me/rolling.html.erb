@@ -1,8 +1,4 @@
-<h1>Gemini</h1>
-
-<p><%= @horoscope %></p>
-
-<p>Your lucky numbers for today are:</p>
+<h1><%= @dice_roll %>d<%= @dice_side %></h1>
 
 <ul>
   <% @array_of_numbers.each do |a_num| %>
@@ -11,4 +7,3 @@
     </li>
   <% end %>
 </ul>
-
